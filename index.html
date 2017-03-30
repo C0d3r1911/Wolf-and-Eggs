@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Wolf and Eggs - JavaScript Game</title>
+        <link href="assets/css/styles.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <div id="game" class="game-container">
+            <div class="navigation-left">
+                <button id="button-left-top" class="button-left-top button-nav" value="left-top"/>
+                <button id="button-left-bottom" class="button-left-bottom button-nav" value="left-bottom"/></div>
+            <div class="main-wrapper">
+                <p class="game-name">
+                    <span>Wolf and Eggs</span>
+                </p>
+                <div id="main" class="main">
+                    <div id="left-roosts" class="left-roosts">
+                        <div id="roost-1" class="roost roost-1"></div>
+                        <div id="roost-2" class="roost roost-2"></div>
+                        <span id="rabbit" class=""></span>
+                    </div>
+                    <div id="points" class="points hide">0</div>
+                    <div id="lost-points" class="lost-points"></div>
+                    <div class="wolf-content">
+                        <div id="wolf-images" class="wolf-images">
+                            <img id="wolf" src="assets/img/left-top.png" class="left-top hide">
+                        </div>
+                    </div>
+                    <div id="right-roosts" class="right-roosts">
+                        <div id="roost-3" class="roost roost-3"></div>
+                        <div id="roost-4" class="roost roost-4"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="navigation-right">
+                <div class="start">
+                    <input type="button" id="button-start" class="button-start" value="Start"/>
+                </div>
+                <button id="button-right-top" class="button-right-top button-nav" value="right-top"/>
+                <button id="button-right-bottom" class="button-right-bottom button-nav" value="right-bottom"/>
+            </div>
+        </div>
+        <script src="assets/js/scripts.min.js"></script>
+    </body>
+</html>
