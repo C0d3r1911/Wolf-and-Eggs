@@ -1,0 +1,15 @@
+.game-name {
+    position: absolute;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: red;
+    width: 100%;
+    text-align: center;
+    margin-top: 42px;
+    z-index: 8;
+
+    span {
+        background-color: #f1f1f1;
+    }
+}

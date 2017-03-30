@@ -1,0 +1,69 @@
+/* przeznaczony na podstawowe style */
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+ul {
+    margin-bottom: 0;
+    list-style: none;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+body {
+    font-size: 1.5rem;
+    background-color: #555;
+    color: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+::-moz-selection {
+    background: $color1;
+    text-shadow: none;
+}
+
+::selection {
+    background: $color1;
+    text-shadow: none;
+}
+
+a {
+    text-decoration: none;
+    color: #222;
+
+    &:hover {
+        color: #555;
+    }
+
+    &:active {
+        color: #ddd;
+    }
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}

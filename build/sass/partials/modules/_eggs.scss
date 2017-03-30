@@ -1,0 +1,54 @@
+/*  Left Eggs */
+.left-egg {
+    &-43 {
+        transform: rotate(-10deg);
+        margin-top: 10px;
+    }
+
+    &-58 {
+        transform: rotate(-45deg);
+        margin-top: 15px;
+    }
+
+    &-73 {
+        transform: rotate(54deg);
+        margin-top: 25px;
+    }
+
+    &-88 {
+        transform: rotate(-45deg);
+        margin-top: 35px;
+    }
+
+    &-103 {
+        transform: rotate(-45deg);
+        margin-top: 45px;
+    }
+}
+
+.right-egg {
+    &-43 {
+        transform: rotate(-25deg);
+        margin-top: 10px;
+    }
+
+    &-58 {
+        transform: rotate(45deg);
+        margin-top: 15px;
+    }
+
+    &-73 {
+        transform: rotate(-10deg);
+        margin-top: 25px;
+    }
+
+    &-88 {
+        transform: rotate(-45deg);
+        margin-top: 35px;
+    }
+
+    &-103 {
+        transform: rotate(-45deg);
+        margin-top: 45px;
+    }
+}

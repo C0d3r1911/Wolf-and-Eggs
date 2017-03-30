@@ -1,0 +1,118 @@
+.left-egg-bird {
+    &-83 {
+        color: transparent;
+        background-image: url("../img/left-bird-4.png");
+        width: 23px;
+        height: 25px;
+        margin-top: -12px;
+        margin-left: -10px;
+    }
+
+    &-63 {
+        color: transparent;
+        background-image: url("../img/left-bird-3.png");
+        width: 19px;
+        height: 26px;
+        margin-top: -12px;
+        margin-left: -5px;
+    }
+
+    &-43 {
+        color: transparent;
+        background-image: url("../img/left-bird-2.png");
+        width: 19px;
+        height: 25px;
+        margin-top: -12px;
+        margin-left: -5px;
+    }
+
+    &-23 {
+        color: transparent;
+        background-image: url("../img/bird-1.png");
+        width: 31px;
+        height: 35px;
+        margin-top: -35px;
+        margin-left: -15px;
+    }
+
+    &-3 {
+        animation-name: brokenegg;
+        background-image: url("../img/broken-egg-left-1.png");
+        animation-duration: 0.9s;
+        animation-fill-mode: forwards;
+        color: red;
+        width: 59px;
+        height: 31px;
+        color: transparent;
+        margin-left: -25px;
+        margin-top: -4px;
+    }
+}
+
+.right-egg-bird {
+    &-83 {
+        color: transparent;
+        background-image: url("../img/right-bird-4.png");
+        width: 23px;
+        height: 25px;
+        margin-top: -17px;
+        margin-right: -12px;
+    }
+
+    &-63 {
+        color: transparent;
+        background-image: url("../img/right-bird-3.png");
+        width: 19px;
+        height: 26px;
+        margin-top: -17px;
+        margin-right: -8px;
+    }
+
+    &-43 {
+        color: transparent;
+        background-image: url("../img/right-bird-2.png");
+        width: 19px;
+        height: 25px;
+        margin-top: -17px;
+        margin-right: -8px;
+    }
+
+    &-23 {
+        color: transparent;
+        background-image: url("../img/right-bird-1.png");
+        width: 31px;
+        height: 35px;
+        margin-top: -35px;
+        margin-right: -12px;
+    }
+
+    &-3 {
+        animation-name: brokenegg;
+        animation-duration: 0.9s;
+        animation-fill-mode: forwards;
+        background-image: url("../img/broken-egg-left-1.png");
+        color: red;
+        width: 59px;
+        height: 31px;
+        color: transparent;
+        margin-right: -24px;
+        margin-top: -4px;
+    }
+}
+@keyframes brokenegg {
+    0% {
+        background-image: url("../img/broken-egg-left-1.png");
+    }
+
+    50% {
+        background-image: url("../img/broken-egg-left-1.png");
+    }
+
+    51% {
+        background-image: url("../img/broken-egg-left-2.png");
+    }
+
+    100% {
+        background-image: url("../img/broken-egg-left-2.png");
+    }
+}

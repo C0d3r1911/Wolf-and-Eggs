@@ -1,0 +1,42 @@
+.roost {
+    &-1 div {
+        position: absolute;
+        top: 75px;
+        left: 28px;
+    }
+
+    &-2 div {
+        position: absolute;
+        top: 135px;
+        left: 25px;
+    }
+
+    &-3 div {
+        position: absolute;
+        top: 75px;
+        right: 28px;
+    }
+
+    &-4 div {
+        position: absolute;
+        top: 135px;
+        right: 25px;
+    }
+}
+
+.left-roosts {
+    width: 120px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.right-roosts {
+    width: 120px;
+    height: 100%;
+    float: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+}

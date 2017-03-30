@@ -1,0 +1,21 @@
+.warning-message {
+    display: none;
+    color: #fff;
+    text-align: center;
+    font-size: 1.8rem;
+    line-height: 2;
+}
+@media (max-width: 700px) and (orientation:portrait) {
+    .game-container {
+        display: none;
+    }
+
+    .warning-message {
+        display: block;
+    }
+}
+@media only screen and (orientation:landscape) {
+    .warning-message {
+        display: none;
+    }
+}

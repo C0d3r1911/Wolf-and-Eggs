@@ -1,0 +1,25 @@
+.rabbit {
+    position: absolute;
+    margin-left: 53px;
+    margin-top: 2px;
+    width: 105px;
+    height: 98px;
+    display: block;
+    animation-name: rabbit;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 4;
+}
+@keyframes rabbit {
+    0% {
+        background-image: url("../img/rabbit1.png");
+    }
+
+    50% {
+        background-image: url("../img/rabbit2.png");
+    }
+
+    100% {
+        background-image: url("../img/rabbit1.png");
+    }
+}

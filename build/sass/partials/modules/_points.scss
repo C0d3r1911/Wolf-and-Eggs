@@ -1,0 +1,41 @@
+.points {
+    font-family: segment7standard, sans-serif;
+    font-weight: normal;
+    font-size: 5.5rem;
+    top: 10px;
+    position: absolute;
+    right: 70px;
+    text-align: right;
+    letter-spacing: 5px;
+}
+
+.lost-points {
+    position: absolute;
+    right: 100px;
+    top: 64px;
+
+    img {
+        float: right;
+        margin-right: 2px;
+    }
+}
+
+.animateEgg {
+    animation-name: animateEgg1;
+    animation-fill-mode: forwards;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+}
+@keyframes animateEgg1 {
+    0% {
+        opacity: 0.5;
+    }
+
+    50% {
+        opacity: 0.8;
+    }
+
+    100% {
+        opacity: 0.5;
+    }
+}
